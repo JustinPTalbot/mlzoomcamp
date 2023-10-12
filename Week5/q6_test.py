@@ -1,0 +1,9 @@
+import requests
+
+url = 'http://localhost:1616/predict'
+
+client = {"job": "retired", "duration": 445, "poutcome": "success"}
+
+result = requests.post(url, json=client).json()
+
+print(result)
