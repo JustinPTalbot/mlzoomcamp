@@ -22,7 +22,7 @@ Please see *notebook.ipynb* for the jupyter notebook containing EDA and model ev
   - Prepped features into DMatrix for use in xgboost model
   - Trained xgboost classification model
   - Selected xgboost model to move forward with
-- Hyperparameter Tuning and Model Eveal
+- Hyperparameter Tuning and Model Eval
   - Selected num_boost_round based
   - Tested different eta
   - Tested different max_depth
