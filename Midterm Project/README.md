@@ -4,6 +4,8 @@
 ### Dataset
 [Fetal Health Classification](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
 
+The data is committed in this repo as fetal_health.csv
+
 This dataset contains information about fetal health that was gathered from Cardiotocograms (CTGs). Fetal Health is classified as 1 - Normal, 2- Suspect, 3 - Pathological. For simplicity, I've reduced this to a binary classification model to predict health as normal or abnormal.
 
 The model's purpose is to intepret the complicated information output by CTGs and use it to determine if the health of the fetus appears abnormal and a docter will need to investigate and treat the issue. This can help prevent child and maternal mortality.
