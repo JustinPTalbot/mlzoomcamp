@@ -40,11 +40,11 @@ python train.py
 ### Local Docker Deployment
 I used pipenv to lock dependencies which are stored in the Pipfile and Pipfile.lock. The model can be deployed locally using docker. With docker installed and running on your system, first build the image:
 ```
-docker build -t fetal_health .
+docker build -t ev_price .
 ```
 Next, you can run the container locally:
 ```
-docker run -it -p 1616:1616 fetal_health:latest
+docker run -it -p 1616:1616 ev_price:latest
 ```
 ### Local Testing
 With the container running locally, we can now test it. I've prepared a python script *predict_test_local.py* with some data and code to send a POST request to the endpoint via port 1616 and receieve a prediction about the price of the car. You can run the file with: 
