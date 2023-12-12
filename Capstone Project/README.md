@@ -65,4 +65,6 @@ In order to get a predicted value from the service, you must use the predict end
 https://evprice-1ba58eb40b90.herokuapp.com/predict
 ```
 I've preparred a python script *predict_test_heroku.py* that lets you send a POST request to the heroku app and see the predicted value.
-
+```
+python predict_test_cloud.py
+```
